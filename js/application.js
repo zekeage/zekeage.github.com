@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   	var waitingInterval, userNumInterval;
-  	var sockjs_url = 'http://localhost:3000/game/sockets', sockjs, multiplexer;
+  	//var sockjs_url = 'http://localhost:3000/game/sockets', sockjs, multiplexer;
+	var sockjs_url = 'http://2048.stolarsky.com:3000/game/sockets', sockjs, multiplexer;
   	
   	// Wait till the browser is ready to render the game (avoids glitches)
  	window.requestAnimationFrame(function () {
